@@ -1,0 +1,8 @@
+.articleTitle{
+    text-decoration: none;
+    color:black;
+}
+
+.articleTitle:hover{
+    color:rgb(122, 122, 122);
+}
