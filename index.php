@@ -6,16 +6,20 @@
     <title>AcadRepo</title>
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="EasyColors-v-1-5.css">
 </head>
 <body>
     <div class="container-md">
         
         <?php include_once("./page-parts/nav.php") ?>
 
+        <?php include_once("./page-parts/searchBox.php") ?>
+
         <div class="container-sm">
 
             <div class="mt-4 p-3 bg-white text-dark rounded border">
                 <h3><a class= "articleTitle" href="">Título do artigo</a></h3>
+                <p style="margin:none">Nome do autor | Nome da Instituição</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 

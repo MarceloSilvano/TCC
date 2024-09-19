@@ -6,3 +6,22 @@
 .articleTitle:hover{
     color:rgb(122, 122, 122);
 }
+
+.searchBox{
+    width: 600px;
+    height: 300px;
+    
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.mt-none {
+    margin-top: none;
+}
+
+.mb-none {
+    margin-bottom: none;
+}
